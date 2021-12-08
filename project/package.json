@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "@htmlacademy/cra-template-typescript": "1.0.3",
+    "@types/react-select": "^5.0.1",
+    "chroma-js": "^2.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.0.2",
-    "react-scripts": "4.0.3"
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,11 +44,12 @@
     "@testing-library/react": "11.2.0",
     "@testing-library/react-hooks": "5.1.0",
     "@testing-library/user-event": "12.8.0",
+    "@types/chroma-js": "^2.1.3",
+    "@types/faker": "5.5.8",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "@types/faker": "5.5.8",
     "@types/react-redux": "^7.1.18",
     "@types/react-router-dom": "^5.1.9",
     "axios-mock-adapter": "1.19.0",
