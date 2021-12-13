@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function BrowseCategories(): JSX.Element {
   const [openToggle, setOpenToggle] = useState(false);
@@ -41,46 +42,46 @@ function BrowseCategories(): JSX.Element {
               <li>
                 <ul>
                   <li>
-                    <a href="#">Vitamins A-E</a>
+                    <Link to="/">Vitamins A-E</Link>
                   </li>
                   <li>
-                    <a href="#">Multivitamins & Minerals</a>
+                    <Link to="/">Multivitamins & Minerals</Link>
                   </li>
                   <li>
-                    <a href="#">Bone & Joints Health</a>
+                    <Link to="/">Bone & Joints Health</Link>
                   </li>
                   <li>
-                    <a href="#">Magnesium</a>
+                    <Link to="/">Magnesium</Link>
                   </li>
                   <li>
-                    <a href="#">Probiotics</a>
+                    <Link to="/">Probiotics</Link>
                   </li>
                   <li>
-                    <a href="#">Fish Oil & Omega 3, 6, 9</a>
+                    <Link to="/">Fish Oil & Omega 3, 6, 9</Link>
                   </li>
                   <li>
-                    <a href="#">Homeopathy</a>
+                    <Link to="/">Homeopathy</Link>
                   </li>
                   <li>
-                    <a href="#">Herbal</a>
+                    <Link to="/">Herbal</Link>
                   </li>
                   <li>
-                    <a href="#">Antioxidants</a>
+                    <Link to="/">Antioxidants</Link>
                   </li>
                   <li>
-                    <a href="#">Pregnancy & Breast Feeding</a>
+                    <Link to="/">Pregnancy & Breast Feeding</Link>
                   </li>
                   <li>
-                    <a href="#">Hair, Skin & Nails</a>
+                    <Link to="/">Hair, Skin & Nails</Link>
                   </li>
                   <li>
-                    <a href="#">Liver & Detox</a>
+                    <Link to="/">Liver & Detox</Link>
                   </li>
                   <li>
-                    <a href="#">Sexual Health</a>
+                    <Link to="/">Sexual Health</Link>
                   </li>
                   <li>
-                    <a href="#">Organic</a>
+                    <Link to="/">Organic</Link>
                   </li>
                 </ul>
               </li>
@@ -90,43 +91,43 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Arthritis & Joints</a>
+                    <Link to="/">Arthritis & Joints</Link>
                   </li>
                   <li>
-                    <a href="#">Iron Deficiency</a>
+                    <Link to="/">Iron Deficiency</Link>
                   </li>
                   <li>
-                    <a href="#">Cough, Cold & Flu</a>
+                    <Link to="/">Cough, Cold & Flu</Link>
                   </li>
                   <li>
-                    <a href="#">Migraine</a>
+                    <Link to="/">Migraine</Link>
                   </li>
                   <li>
-                    <a href="#">Stress & Anxiety</a>
+                    <Link to="/">Stress & Anxiety</Link>
                   </li>
                   <li>
-                    <a href="#">Insomnia</a>
+                    <Link to="/">Insomnia</Link>
                   </li>
                   <li>
-                    <a href="#">Vein Care</a>
+                    <Link to="/">Vein Care</Link>
                   </li>
                   <li>
-                    <a href="#">Heart & Cholesterol</a>
+                    <Link to="/">Heart & Cholesterol</Link>
                   </li>
                   <li>
-                    <a href="#">Digestive Health</a>
+                    <Link to="/">Digestive Health</Link>
                   </li>
                   <li>
-                    <a href="#">Hair Loss</a>
+                    <Link to="/">Hair Loss</Link>
                   </li>
                   <li>
-                    <a href="#">Sugar Control</a>
+                    <Link to="/">Sugar Control</Link>
                   </li>
                   <li>
-                    <a href="#">Memory & Concentration</a>
+                    <Link to="/">Memory & Concentration</Link>
                   </li>
                   <li>
-                    <a href="#">Water Retention</a>
+                    <Link to="/">Water Retention</Link>
                   </li>
                 </ul>
               </li>
@@ -136,16 +137,16 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">For Children</a>
+                    <Link to="/">For Children</Link>
                   </li>
                   <li>
-                    <a href="#">For Men</a>
+                    <Link to="/">For Men</Link>
                   </li>
                   <li>
-                    <a href="#">For Women</a>
+                    <Link to="/">For Women</Link>
                   </li>
                   <li>
-                    <a href="#">For 50+</a>
+                    <Link to="/">For 50+</Link>
                   </li>
                 </ul>
               </li>
@@ -160,65 +161,65 @@ function BrowseCategories(): JSX.Element {
               <li>
                 <ul>
                   <li>
-                    <a href="#">Skin Care</a>
+                    <Link to="/">Skin Care</Link>
                   </li>
                   <li>
-                    <a href="#">Makeup & Cosmetics</a>
+                    <Link to="/">Makeup & Cosmetics</Link>
                   </li>
                   <li>
-                    <a href="#">Hand & Nail Care</a>
+                    <Link to="/">Hand & Nail Care</Link>
                   </li>
                   <li>
-                    <a href="#">Hair Care</a>
+                    <Link to="/">Hair Care</Link>
                   </li>
                   <li>
-                    <a href="#">Sun Care</a>
+                    <Link to="/">Sun Care</Link>
                   </li>
                   <li>
-                    <a href="#">Feminine Hygiene</a>
+                    <Link to="/">Feminine Hygiene</Link>
                   </li>
                   <li>
-                    <a href="#">Bath & Body</a>
+                    <Link to="/">Bath & Body</Link>
                   </li>
                   <li>
-                    <a href="#">Foot Care</a>
+                    <Link to="/">Foot Care</Link>
                   </li>
                   <li>
-                    <a href="#">Waxing & Hair Removal</a>
+                    <Link to="/">Waxing & Hair Removal</Link>
                   </li>
                   <li>
-                    <a href="#">Lice</a>
+                    <Link to="/">Lice</Link>
                   </li>
                   <li>
-                    <a href="#">Hair Colours</a>
+                    <Link to="/">Hair Colours</Link>
                   </li>
                   <li>
-                    <a href="#">Lip Care</a>
+                    <Link to="/">Lip Care</Link>
                   </li>
                 </ul>
               </li>
               <li>
                 <ul>
                   <li>
-                    <a href="#">Deodorants</a>
+                    <Link to="/">Deodorants</Link>
                   </li>
                   <li>
-                    <a href="#">Oral Hygiene</a>
+                    <Link to="/">Oral Hygiene</Link>
                   </li>
                   <li>
-                    <a href="#">Incontinence</a>
+                    <Link to="/">Incontinence</Link>
                   </li>
                   <li>
-                    <a href="#">Essential Oils</a>
+                    <Link to="/">Essential Oils</Link>
                   </li>
                   <li>
-                    <a href="#">Anti-aging & Wrinkle Treatment</a>
+                    <Link to="/">Anti-aging & Wrinkle Treatment</Link>
                   </li>
                   <li>
-                    <a href="#">Family Planning</a>
+                    <Link to="/">Family Planning</Link>
                   </li>
                   <li>
-                    <a href="#">Organic</a>
+                    <Link to="/">Organic</Link>
                   </li>
                 </ul>
               </li>
@@ -228,13 +229,13 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">For Children</a>
+                    <Link to="/">For Children</Link>
                   </li>
                   <li>
-                    <a href="#">For Men</a>
+                    <Link to="/">For Men</Link>
                   </li>
                   <li>
-                    <a href="#">For Women</a>
+                    <Link to="/">For Women</Link>
                   </li>
                 </ul>
               </li>
@@ -249,56 +250,56 @@ function BrowseCategories(): JSX.Element {
               <li>
                 <ul>
                   <li>
-                    <a href="#">Eye & Ear</a>
+                    <Link to="/">Eye & Ear</Link>
                   </li>
                   <li>
-                    <a href="#">Nose & Throat</a>
+                    <Link to="/">Nose & Throat</Link>
                   </li>
                   <li>
-                    <a href="#">Oral Health</a>
+                    <Link to="/">Oral Health</Link>
                   </li>
                   <li>
-                    <a href="#">Fever & Pain Relief</a>
+                    <Link to="/">Fever & Pain Relief</Link>
                   </li>
                   <li>
-                    <a href="#">Allergies & Sinus</a>
+                    <Link to="/">Allergies & Sinus</Link>
                   </li>
                   <li>
-                    <a href="#">Cold, Cough & Flu</a>
+                    <Link to="/">Cold, Cough & Flu</Link>
                   </li>
                   <li>
-                    <a href="#">Skin Conditions</a>
+                    <Link to="/">Skin Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Laxatives & Fibres</a>
+                    <Link to="/">Laxatives & Fibres</Link>
                   </li>
                   <li>
-                    <a href="#">Hair Treatments</a>
+                    <Link to="/">Hair Treatments</Link>
                   </li>
                   <li>
-                    <a href="#">Anti-Fungal</a>
+                    <Link to="/">Anti-Fungal</Link>
                   </li>
                 </ul>
               </li>
               <li>
                 <ul>
                   <li>
-                    <a href="#">Worming</a>
+                    <Link to="/">Worming</Link>
                   </li>
                   <li>
-                    <a href="#">Haemorrhoids</a>
+                    <Link to="/">Haemorrhoids</Link>
                   </li>
                   <li>
-                    <a href="#">Travel Sickness</a>
+                    <Link to="/">Travel Sickness</Link>
                   </li>
                   <li>
-                    <a href="#">Rehydration</a>
+                    <Link to="/">Rehydration</Link>
                   </li>
                   <li>
-                    <a href="#">Antacids & Stomach Preparations</a>
+                    <Link to="/">Antacids & Stomach Preparations</Link>
                   </li>
                   <li>
-                    <a href="#">Pharmacist Advice Medicine</a>
+                    <Link to="/">Pharmacist Advice Medicine</Link>
                   </li>
                 </ul>
               </li>
@@ -308,16 +309,16 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">For Children</a>
+                    <Link to="/">For Children</Link>
                   </li>
                   <li>
-                    <a href="#">For Men</a>
+                    <Link to="/">For Men</Link>
                   </li>
                   <li>
-                    <a href="#">For Women</a>
+                    <Link to="/">For Women</Link>
                   </li>
                   <li>
-                    <a href="#">For 50+</a>
+                    <Link to="/">For 50+</Link>
                   </li>
                 </ul>
               </li>
@@ -335,37 +336,37 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Sleep & Snoring Aids</a>
+                    <Link to="/">Sleep & Snoring Aids</Link>
                   </li>
                   <li>
-                    <a href="#">Quit Smoking Aids</a>
+                    <Link to="/">Quit Smoking Aids</Link>
                   </li>
                   <li>
-                    <a href="#">Supports & Braces</a>
+                    <Link to="/">Supports & Braces</Link>
                   </li>
                   <li>
-                    <a href="#">Pregnancy Tests</a>
+                    <Link to="/">Pregnancy Tests</Link>
                   </li>
                   <li>
-                    <a href="#">Medical Devices</a>
+                    <Link to="/">Medical Devices</Link>
                   </li>
                   <li>
-                    <a href="#">Walking Sticks</a>
+                    <Link to="/">Walking Sticks</Link>
                   </li>
                   <li>
-                    <a href="#">Mobility Aids</a>
+                    <Link to="/">Mobility Aids</Link>
                   </li>
                   <li>
-                    <a href="#">Weight Scales</a>
+                    <Link to="/">Weight Scales</Link>
                   </li>
                   <li>
-                    <a href="#">Magnetic Therapy</a>
+                    <Link to="/">Magnetic Therapy</Link>
                   </li>
                   <li>
-                    <a href="#">Lifestyle Aids</a>
+                    <Link to="/">Lifestyle Aids</Link>
                   </li>
                   <li>
-                    <a href="#">NRT</a>
+                    <Link to="/">NRT</Link>
                   </li>
                 </ul>
               </li>
@@ -375,44 +376,44 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">First Aid Kits & Supplies</a>
+                    <Link to="/">First Aid Kits & Supplies</Link>
                   </li>
                   <li>
-                    <a href="#">Bandages & Dressings</a>
+                    <Link to="/">Bandages & Dressings</Link>
                   </li>
                   <li>
-                    <a href="#">Antibacterial & Antiseptics</a>
+                    <Link to="/">Antibacterial & Antiseptics</Link>
                   </li>
                   <li>
-                    <a href="#">Heat & Anti-inflammatory Rubs</a>
+                    <Link to="/">Heat & Anti-inflammatory Rubs</Link>
                   </li>
                   <li>
-                    <a href="#">Syringes</a>
+                    <Link to="/">Syringes</Link>
                   </li>
                   <li>
-                    <a href="#">Stings & Bites</a>
+                    <Link to="/">Stings & Bites</Link>
                   </li>
                 </ul>
               </li>
               <li>
                 <ul>
                   <li>
-                    <a href="#">Thermometers</a>
+                    <Link to="/">Thermometers</Link>
                   </li>
                   <li>
-                    <a href="#">Pill Boxes</a>
+                    <Link to="/">Pill Boxes</Link>
                   </li>
                   <li>
-                    <a href="#">Plasters</a>
+                    <Link to="/">Plasters</Link>
                   </li>
                   <li>
-                    <a href="#">Hot & Cold Therapy</a>
+                    <Link to="/">Hot & Cold Therapy</Link>
                   </li>
                   <li>
-                    <a href="#">Compression Bandages</a>
+                    <Link to="/">Compression Bandages</Link>
                   </li>
                   <li>
-                    <a href="#">Sports</a>
+                    <Link to="/">Sports</Link>
                   </li>
                 </ul>
               </li>
@@ -427,32 +428,32 @@ function BrowseCategories(): JSX.Element {
               <li>
                 <ul>
                   <li>
-                    <a href="#">Condoms & Contraceptives</a>
+                    <Link to="/">Condoms & Contraceptives</Link>
                   </li>
                   <li>
-                    <a href="#">Lubricants & Creams</a>
+                    <Link to="/">Lubricants & Creams</Link>
                   </li>
                   <li>
-                    <a href="#">Vibrators</a>
+                    <Link to="/">Vibrators</Link>
                   </li>
                   <li>
-                    <a href="#">Adult Toys</a>
+                    <Link to="/">Adult Toys</Link>
                   </li>
                 </ul>
               </li>
               <li>
                 <ul>
                   <li>
-                    <a href="#">Intimate Care</a>
+                    <Link to="/">Intimate Care</Link>
                   </li>
                   <li>
-                    <a href="#">Mood Setters</a>
+                    <Link to="/">Mood Setters</Link>
                   </li>
                   <li>
-                    <a href="#">Sexual Wellness Supplements</a>
+                    <Link to="/">Sexual Wellness Supplements</Link>
                   </li>
                   <li>
-                    <a href="#">Pregnancy & Fertility</a>
+                    <Link to="/">Pregnancy & Fertility</Link>
                   </li>
                 </ul>
               </li>
@@ -462,10 +463,10 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">For Men</a>
+                    <Link to="/">For Men</Link>
                   </li>
                   <li>
-                    <a href="#">For Women</a>
+                    <Link to="/">For Women</Link>
                   </li>
                 </ul>
               </li>
@@ -483,19 +484,19 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Protein Powder</a>
+                    <Link to="/">Protein Powder</Link>
                   </li>
                   <li>
-                    <a href="#">Weight Loss Supplements</a>
+                    <Link to="/">Weight Loss Supplements</Link>
                   </li>
                   <li>
-                    <a href="#">Meal Replacements</a>
+                    <Link to="/">Meal Replacements</Link>
                   </li>
                   <li>
-                    <a href="#">Low Calorie Snacks</a>
+                    <Link to="/">Low Calorie Snacks</Link>
                   </li>
                   <li>
-                    <a href="#">Bars & Drinks</a>
+                    <Link to="/">Bars & Drinks</Link>
                   </li>
                 </ul>
               </li>
@@ -505,16 +506,16 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Muscle Building</a>
+                    <Link to="/">Muscle Building</Link>
                   </li>
                   <li>
-                    <a href="#">Re-hydration</a>
+                    <Link to="/">Re-hydration</Link>
                   </li>
                   <li>
-                    <a href="#">Weight Gain</a>
+                    <Link to="/">Weight Gain</Link>
                   </li>
                   <li>
-                    <a href="#">Energy Supplements</a>
+                    <Link to="/">Energy Supplements</Link>
                   </li>
                 </ul>
               </li>
@@ -524,20 +525,20 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">For Men</a>
+                    <Link to="/">For Men</Link>
                   </li>
                   <li>
-                    <a href="#">For Women</a>
+                    <Link to="/">For Women</Link>
                   </li>
                   <li>
-                    <a href="#">For 50+</a>
+                    <Link to="/">For 50+</Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li className="with-sub-menu hidden">
-            <a href="#">Mum & Baby</a>
+            <Link to="/">Mum & Baby</Link>
             <ul
               className="sub-menu"
               data-bg-image-src="images/suppliments7.png"
@@ -548,40 +549,40 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Bibs & Smocks</a>
+                    <Link to="/">Bibs & Smocks</Link>
                   </li>
                   <li>
-                    <a href="#">Bottles</a>
+                    <Link to="/">Bottles</Link>
                   </li>
                   <li>
-                    <a href="#">Breast Pumps</a>
+                    <Link to="/">Breast Pumps</Link>
                   </li>
                   <li>
-                    <a href="#">Trainer Cups</a>
+                    <Link to="/">Trainer Cups</Link>
                   </li>
                   <li>
-                    <a href="#">Baby Formula</a>
+                    <Link to="/">Baby Formula</Link>
                   </li>
                   <li>
-                    <a href="#">Wind & Reflux</a>
+                    <Link to="/">Wind & Reflux</Link>
                   </li>
                   <li>
-                    <a href="#">Sterilisers</a>
+                    <Link to="/">Sterilisers</Link>
                   </li>
                   <li>
-                    <a href="#">Teats & Sealers</a>
+                    <Link to="/">Teats & Sealers</Link>
                   </li>
                   <li>
-                    <a href="#">Organic</a>
+                    <Link to="/">Organic</Link>
                   </li>
                   <li>
-                    <a href="#">Baby Food</a>
+                    <Link to="/">Baby Food</Link>
                   </li>
                   <li>
-                    <a href="#">Feeding Systems</a>
+                    <Link to="/">Feeding Systems</Link>
                   </li>
                   <li>
-                    <a href="#">Bottle Warmers & Sterilisers</a>
+                    <Link to="/">Bottle Warmers & Sterilisers</Link>
                   </li>
                 </ul>
               </li>
@@ -591,34 +592,34 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Baby Pain & Fever</a>
+                    <Link to="/">Baby Pain & Fever</Link>
                   </li>
                   <li>
-                    <a href="#">Bathtime</a>
+                    <Link to="/">Bathtime</Link>
                   </li>
                   <li>
-                    <a href="#">Skin & Hair Care</a>
+                    <Link to="/">Skin & Hair Care</Link>
                   </li>
                   <li>
-                    <a href="#">Powders & Talcs</a>
+                    <Link to="/">Powders & Talcs</Link>
                   </li>
                   <li>
-                    <a href="#">Cap & Scalp Care</a>
+                    <Link to="/">Cap & Scalp Care</Link>
                   </li>
                   <li>
-                    <a href="#">Organic Baby Care</a>
+                    <Link to="/">Organic Baby Care</Link>
                   </li>
                   <li>
-                    <a href="#">Teething</a>
+                    <Link to="/">Teething</Link>
                   </li>
                   <li>
-                    <a href="#">Soothers</a>
+                    <Link to="/">Soothers</Link>
                   </li>
                   <li>
-                    <a href="#">Thermometers</a>
+                    <Link to="/">Thermometers</Link>
                   </li>
                   <li>
-                    <a href="#">In-ear Thermometers</a>
+                    <Link to="/">In-ear Thermometers</Link>
                   </li>
                 </ul>
               </li>
@@ -628,26 +629,26 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Support Belts</a>
+                    <Link to="/">Support Belts</Link>
                   </li>
                   <li>
-                    <a href="#">Stretch Mark Creams</a>
+                    <Link to="/">Stretch Mark Creams</Link>
                   </li>
                   <li>
-                    <a href="#">Nursing Accessories</a>
+                    <Link to="/">Nursing Accessories</Link>
                   </li>
                   <li>
-                    <a href="#">Prenatal Supplements</a>
+                    <Link to="/">Prenatal Supplements</Link>
                   </li>
                   <li>
-                    <a href="#">Travel Accessories</a>
+                    <Link to="/">Travel Accessories</Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li className="with-sub-menu hidden no-bg-img">
-            <a href="#">Organic & Gluten Free</a>
+            <Link to="/">Organic & Gluten Free</Link>
             <ul
               className="sub-menu"
               data-bg-image-src="images/suppliments8.png"
@@ -655,35 +656,35 @@ function BrowseCategories(): JSX.Element {
               <li>
                 <ul>
                   <li>
-                    <a href="#">Organic</a>
+                    <Link to="/">Organic</Link>
                   </li>
                   <li>
-                    <a href="#">Gluten Free</a>
+                    <Link to="/">Gluten Free</Link>
                   </li>
                   <li>
-                    <a href="#">Sugar Free</a>
+                    <Link to="/">Sugar Free</Link>
                   </li>
                   <li>
-                    <a href="#">Paleo</a>
+                    <Link to="/">Paleo</Link>
                   </li>
                   <li>
-                    <a href="#">Vegan</a>
+                    <Link to="/">Vegan</Link>
                   </li>
                   <li>
-                    <a href="#">Whole Foods</a>
+                    <Link to="/">Whole Foods</Link>
                   </li>
                   <li>
-                    <a href="#">Super Foods</a>
+                    <Link to="/">Super Foods</Link>
                   </li>
                   <li>
-                    <a href="#">Personal Care</a>
+                    <Link to="/">Personal Care</Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li className="with-sub-menu hidden">
-            <a href="#">Home & Pets</a>
+            <Link to="/">Home & Pets</Link>
             <ul
               className="sub-menu"
               data-bg-image-src="images/suppliments9.png"
@@ -694,16 +695,16 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Snacks</a>
+                    <Link to="/">Snacks</Link>
                   </li>
                   <li>
-                    <a href="#">Tea</a>
+                    <Link to="/">Tea</Link>
                   </li>
                   <li>
-                    <a href="#">Coffee</a>
+                    <Link to="/">Coffee</Link>
                   </li>
                   <li>
-                    <a href="#">Beverages</a>
+                    <Link to="/">Beverages</Link>
                   </li>
                 </ul>
               </li>
@@ -713,16 +714,16 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Kitchen</a>
+                    <Link to="/">Kitchen</Link>
                   </li>
                   <li>
-                    <a href="#">Bathroom</a>
+                    <Link to="/">Bathroom</Link>
                   </li>
                   <li>
-                    <a href="#">Bedroom</a>
+                    <Link to="/">Bedroom</Link>
                   </li>
                   <li>
-                    <a href="#">Living room</a>
+                    <Link to="/">Living room</Link>
                   </li>
                 </ul>
               </li>
@@ -732,23 +733,23 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Dog Care</a>
+                    <Link to="/">Dog Care</Link>
                   </li>
                   <li>
-                    <a href="#">Cat Care</a>
+                    <Link to="/">Cat Care</Link>
                   </li>
                   <li>
-                    <a href="#">Horse Care</a>
+                    <Link to="/">Horse Care</Link>
                   </li>
                   <li>
-                    <a href="#">Pet Accessories</a>
+                    <Link to="/">Pet Accessories</Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li className="with-sub-menu hidden no-bg-img">
-            <a href="#">Travel</a>
+            <Link to="/">Travel</Link>
             <ul
               className="sub-menu"
               data-bg-image-src="images/suppliments10.png"
@@ -756,29 +757,29 @@ function BrowseCategories(): JSX.Element {
               <li>
                 <ul>
                   <li>
-                    <a href="#">Sickness</a>
+                    <Link to="/">Sickness</Link>
                   </li>
                   <li>
-                    <a href="#">Stockings</a>
+                    <Link to="/">Stockings</Link>
                   </li>
                   <li>
-                    <a href="#">Accessories</a>
+                    <Link to="/">Accessories</Link>
                   </li>
                   <li>
-                    <a href="#">Toiletries</a>
+                    <Link to="/">Toiletries</Link>
                   </li>
                   <li>
-                    <a href="#">Travel Kits</a>
+                    <Link to="/">Travel Kits</Link>
                   </li>
                   <li>
-                    <a href="#">Travel Necessities</a>
+                    <Link to="/">Travel Necessities</Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li className="with-sub-menu hidden no-bg-img">
-            <a href="#">Parfumes & Gifts</a>
+            <Link to="/">Parfumes & Gifts</Link>
             <ul
               className="sub-menu"
               data-bg-image-src="images/suppliments11.png"
@@ -789,16 +790,16 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Men</a>
+                    <Link to="/">Men</Link>
                   </li>
                   <li>
-                    <a href="#">Women</a>
+                    <Link to="/">Women</Link>
                   </li>
                   <li>
-                    <a href="#">Unisex</a>
+                    <Link to="/">Unisex</Link>
                   </li>
                   <li>
-                    <a href="#">Kids</a>
+                    <Link to="/">Kids</Link>
                   </li>
                 </ul>
                 <div className="sub-title">
@@ -806,22 +807,22 @@ function BrowseCategories(): JSX.Element {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Men</a>
+                    <Link to="/">Men</Link>
                   </li>
                   <li>
-                    <a href="#">Women</a>
+                    <Link to="/">Women</Link>
                   </li>
                   <li>
-                    <a href="#">Unisex</a>
+                    <Link to="/">Unisex</Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li>
-            <a id="mad-show-cat" href="#">
+            <Link id="mad-show-cat" to="/">
                       Show More
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

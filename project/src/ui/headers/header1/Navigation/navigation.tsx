@@ -1,10 +1,6 @@
-// import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navigation(): JSX.Element{
-  /* const [selectedMenu, setSelectedMenu] = useState(false);
-  const setSelectedMenuHandler = () => {
-    setSelectedMenu(!selectedMenu);
-  }; */
 
   return (
     <nav className="mad-navigation-container">
@@ -12,7 +8,7 @@ function Navigation(): JSX.Element{
         <li
           className="menu-item menu-item-has-children home-menu mega-menu"
         >
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
           {/* <!--================ Sub Menu ================--> */}
           <ul className="sub-menu">
             <li className="mad-home-title">
@@ -66,13 +62,13 @@ function Navigation(): JSX.Element{
         <li
           className="menu-item menu-item-has-children mega-menu"
         >
-          <a href="#">Shop</a>
+          <Link to="/">Shop</Link>
           {/* <!--================ Sub Menu ================--> */}
           <ul className="sub-menu">
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         With Sidebar Layouts
-              </a>
+              </Link>
               {/* <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -106,9 +102,9 @@ function Navigation(): JSX.Element{
               {/* <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         No Sidebar Layouts
-              </a>
+              </Link>
               {/* <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -140,9 +136,9 @@ function Navigation(): JSX.Element{
               {/*  <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Category Layouts
-              </a>
+              </Link>
               {/* <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -174,9 +170,9 @@ function Navigation(): JSX.Element{
               {/*  <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Filter Positions
-              </a>
+              </Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -195,9 +191,9 @@ function Navigation(): JSX.Element{
                 </li>
               </ul>
               {/*  <!--================ End of Sub Menu ================--> */}
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Pagination Variations
-              </a>
+              </Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -210,9 +206,9 @@ function Navigation(): JSX.Element{
               {/* <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Product Layouts
-              </a>
+              </Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -246,9 +242,9 @@ function Navigation(): JSX.Element{
               {/*  <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Product Types
-              </a>
+              </Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -275,9 +271,9 @@ function Navigation(): JSX.Element{
               {/* <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Shop Pages
-              </a>
+              </Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -301,7 +297,7 @@ function Navigation(): JSX.Element{
         <li
           className="menu-item menu-item-has-children"
         >
-          <a href="#">Pages</a>
+          <Link to="/">Pages</Link>
           {/*  <!--================ Sub Menu ================--> */}
           <div className="sub-menu with-aside">
             <ul>
@@ -355,9 +351,9 @@ function Navigation(): JSX.Element{
                     </h3>
                   </div>
                   <div className="content-element-4">
-                    <a href="#" className="btn btn-style-4">
+                    <Link to="/" className="btn btn-style-4">
                               Shop Now!
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -366,13 +362,13 @@ function Navigation(): JSX.Element{
           {/* <!--================ End of Sub Menu ================--> */}
         </li>
         <li className="menu-item menu-item-has-children mega-menu">
-          <a href="#">Elements</a>
+          <Link to="/">Elements</Link>
           {/*  <!--================ Sub Menu ================--> */}
           <ul className="sub-menu">
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         General Elements <span className="no-title">1</span>
-              </a>
+              </Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -407,9 +403,9 @@ function Navigation(): JSX.Element{
               {/*  <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title no-title">
+              <Link to="/" className="sub-title no-title">
                         General Elements 2
-              </a>
+              </Link>
               {/* <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -440,9 +436,9 @@ function Navigation(): JSX.Element{
               {/* <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Shop Elements
-              </a>
+              </Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -462,9 +458,9 @@ function Navigation(): JSX.Element{
               {/*  <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Typography
-              </a>
+              </Link>
               {/* <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -489,9 +485,9 @@ function Navigation(): JSX.Element{
               {/*  <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children sub-wrap">
-              <a href="#" className="sub-title">
+              <Link to="/" className="sub-title">
                         Header and Footer Layouts
-              </a>
+              </Link>
               <div className="sub-menu">
                 <ul>
                   <li className="menu-item">
@@ -527,11 +523,11 @@ function Navigation(): JSX.Element{
           {/* <!--================ End of Sub Menu ================--> */}
         </li>
         <li className="menu-item menu-item-has-children current-menu-item">
-          <a href="#">Blog</a>
+          <Link to="/">Blog</Link>
           {/*  <!--================ Sub Menu ================--> */}
           <ul className="sub-menu">
             <li className="menu-item menu-item-has-children current-menu-item">
-              <a href="#">classNameic Blog</a>
+              <Link to="/">classNameic Blog</Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -561,7 +557,7 @@ function Navigation(): JSX.Element{
               {/*  <!--================ End of Sub Menu ================--> */}
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#">Single Blog Post</a>
+              <Link to="/">Single Blog Post</Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
