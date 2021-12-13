@@ -10,3 +10,15 @@ export enum AuthorizationStatus {
   NoAuth = 'NO_AUTH',
   Unknown = 'UNKNOWN',
 }
+
+export enum Currencies {
+  USD = 'USD',
+  RUB = 'RUB',
+  CNY = 'CNY',
+}
+
+export enum Languages {
+  English = 'English',
+  France = 'France',
+  Germany = 'Germany',
+}
