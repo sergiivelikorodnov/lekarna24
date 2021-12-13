@@ -1,4 +1,5 @@
 import IconBoxes4Style3Size2 from '../../components/icon-box/icon-boxes-4-type1';
+import Footer1 from '../../ui/footers/footer1/footer1';
 import Header1 from '../../ui/headers/header1/header1';
 
 function Home1(): JSX.Element {
@@ -10,8 +11,8 @@ function Home1(): JSX.Element {
           <IconBoxes4Style3Size2/>
         </div>
       </div>
+      <Footer1/>
     </div>
-
   );
 }
 
