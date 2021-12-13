@@ -3,6 +3,7 @@ export enum AppRoute {
   Login = '/login',
   ProductId = '/product/:id',
   Favorites = '/favorites',
+  Blog = '/blog',
 }
 
 export enum AuthorizationStatus {
