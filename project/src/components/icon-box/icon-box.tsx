@@ -1,8 +1,4 @@
-type IconBoxType = {
-  icon: string,
-  title: string,
-  description: string,
-}
+import { IconBoxType } from '../../types/icon-box-type';
 
 function IconBox({icon, title, description}:IconBoxType): JSX.Element {
   return (
