@@ -527,16 +527,16 @@ function Navigation(): JSX.Element{
           {/*  <!--================ Sub Menu ================--> */}
           <ul className="sub-menu">
             <li className="menu-item menu-item-has-children current-menu-item">
-              <Link to="/">classNameic Blog</Link>
+              <Link to="/">Classic Blog</Link>
               {/*  <!--================ Sub Menu ================--> */}
               <ul className="sub-menu">
                 <li className="menu-item">
-                  <a href="blog_classNameic_sidebar.html">
+                  <a href="blog_classic_sidebar.html">
                             With Right Sidebar
                   </a>
                 </li>
                 <li className="menu-item current-menu-item">
-                  <a href="blog_classNameic.html">Without Sidebar</a>
+                  <a href="blog_classic.html">Without Sidebar</a>
                 </li>
               </ul>
               {/*  <!--================ End of Sub Menu ================--> */}

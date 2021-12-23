@@ -107,12 +107,12 @@ export const footerWidgetStoreLocations: FooterWidgetLocationType ={
     link:'#',
   },
   {
-    description: '9863 - 9867 Mill Road, Cambridge, MG09 99HT',
+    description: '9863 - 9868 Mill Road, Cambridge, MG09 99HT',
     button:'Get Directions',
     link:'#',
   },
   {
-    description: '9863 - 9867 Mill Road, Cambridge, MG09 99HT',
+    description: '9863 - 9869 Mill Road, Cambridge, MG09 99HT',
     button:'Get Directions',
     link:'#',
   },
