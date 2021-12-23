@@ -23,3 +23,26 @@ export enum Languages {
   France = 'France',
   Germany = 'Germany',
 }
+
+export enum PostFormat {
+  FeaturedImage = 'FeaturedImage',
+  Blockquote = 'Blockquote',
+  Vimeo = 'Vimeo',
+  SoundCloud = 'Soundcloud',
+  Youtube = 'Youtube',
+  Gallery = 'Gallery',
+  Link = 'Link',
+}
+
+export const BlogFilterValues = {
+  covid: 'COVID-19',
+  immune: 'Immune',
+  personalCare: 'Personal Care',
+  mumandbaby: 'Mum and Baby',
+  sexualhealth: 'SexualHealth',
+  tips: 'Tips',
+  wellness: 'Wellness',
+};
+
+export const TotalPosts = 6;
+export const PostPerPage = 3;

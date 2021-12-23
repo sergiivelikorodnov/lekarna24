@@ -13,7 +13,8 @@ function App(): JSX.Element {
       <Routes>
         <Route path={AppRoute.Main} element={<Home1 />}/>
         <Route path={AppRoute.Login} element={<Login />} />
-        <Route path={AppRoute.Blog} element={<Blog />}/>
+        <Route path={AppRoute.Blog} element={<Blog />} />
+        {/* <Route path={`${AppRoute.Blog}/:id?`} element={<Blog />}/> */}
         <Route path={AppRoute.Favorites}
           element={
             <PrivateRoute>
