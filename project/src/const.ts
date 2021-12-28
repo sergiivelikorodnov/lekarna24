@@ -46,3 +46,11 @@ export const BlogFilterValues = {
 
 export const TotalPosts = 6;
 export const PostPerPage = 3;
+
+export enum NotificationMessage {
+  PostsError = 'We couldn\'t get Posts. Check your connection',
+}
+
+export enum APIRoute {
+  Posts = '/posts',
+}
